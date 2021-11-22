@@ -1,0 +1,87 @@
+%title-12 {
+    font-family: $font-neue-montreal;
+    font-size: 1.2rem;
+  
+    @include media('<phone') {
+      font-size: 2.4rem;
+    }
+}
+
+%title-48 {
+  font-family: $font-neue-montreal;
+  font-size: 4.8rem;
+
+  @include media('<phone') {
+    font-size: 2.4rem;
+  }
+}
+
+%title-72 {
+  font-family: $font-neue-montreal;
+  font-size: 7.2rem;
+
+  @include media('<phone') {
+    font-size: 2.4rem;
+  }
+}
+
+%title-80 {
+  font-family: $font-neue-montreal;
+  font-size: 8rem;
+
+  @include media('<phone') {
+    font-size: 2.4rem;
+  }
+}
+
+%title-96 {
+  font-family: $font-neue-montreal;
+  font-size: 9.6rem;
+
+  @include media('<phone') {
+    font-size: 3.6rem;
+  }
+}
+%title-98 {
+  font-family: $font-migra;
+  font-size: 11rem;
+
+  @include media('<phone') {
+    font-size: 3.6rem;
+  }
+}
+
+%title-100 {
+  font-family: $font-neue-montreal;
+  font-size: 10rem;
+
+  @include media('<phone') {
+    font-size: 4.8rem;
+  }
+}
+
+%title-120 {
+    font-family: $font-neue-montreal;
+    font-size: 9.6rem;
+  
+    @include media('<phone') {
+      font-size: 4rem;
+    }
+}
+
+%title-144 {
+  font-family: $font-neue-montreal;
+  font-size: 14.4rem;
+  @include media('<phone') {
+    font-size: 4.8rem;
+  }
+}
+
+%title-180 {
+    font-family: $font-neue-montreal;
+    font-size: 18rem;
+  
+    @include media('<phone') {
+      font-size: 3.2rem;
+    }
+}

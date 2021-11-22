@@ -1,0 +1,17 @@
+%link-40{
+    font-family: $font-neue-montreal;
+    font-size: 2.5rem;
+  
+    @include media('<phone') {
+      font-size: 3rem;
+    }
+}
+
+%link-120{
+    font-family: $font-neue-montreal;
+    font-size: 12rem;
+  
+    @include media('<phone') {
+      font-size: 4.8rem;
+    }
+}

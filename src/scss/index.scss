@@ -1,0 +1,17 @@
+@import './base/reset.scss';
+
+@import './utils/variables.scss';
+@import './utils/functions.scss';
+@import './utils/mixins.scss';
+@import './utils/vendors.scss';
+@import './utils/responsive.scss';
+
+@import './shared/links.scss';
+@import './shared/paragraph.scss';
+@import './shared/titles.scss';
+
+@import './base/fonts.scss';
+@import './base/base.scss';
+@import './utils/locomotive.scss';
+
+@import './layout/navigation.scss';

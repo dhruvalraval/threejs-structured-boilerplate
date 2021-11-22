@@ -1,0 +1,112 @@
+.navigation{
+    // @extend %cover;
+    width: 100%;
+    color: $color-black;
+    position: absolute;    
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: all 1s;
+    overflow: hidden;
+    z-index: z('navigation');
+
+    &.scrollUp{
+        transform: translateY(-23rem);
+    }
+
+    @include media('<phone') {
+        width: 100vw;
+        position: absolute;
+    }
+
+
+}
+.navigation_wrapper {
+    position: relative;
+    padding: 7.5rem 8.5rem;
+    display: flex;
+    justify-content: space-between;
+
+    @include media('<phone') {
+        padding: 4.5rem 2.8rem;
+        width: 100vw;
+    }
+}
+
+
+.navigation_link{
+    font-size: 2.5rem;
+    pointer-events: auto;
+
+    @include media('<phone') {
+        font-size: 3rem;
+    }
+}
+.hamburger{
+    width: 3rem;
+    height: 2rem;
+    display: none;
+    transition: 0.6s all ease-out;
+
+    @include media('<phone') {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: 0.5s all ease;
+        z-index: z('navigation');
+    }
+}
+
+.menu_one,
+.menu_two,
+.menu_three {
+    width: 100%;
+    height: 0.2rem;
+    background: $color-black;
+    transition: 0.6s all ease-out;
+
+    &.open{
+        transition: 0.6s all ease-out;
+
+        &:nth-child(1){
+            transition: 0.6s all ease-out;
+            transform: rotate(45deg) translate(11px, 12px);
+        }
+        &:nth-child(2){
+            transition: 0.6s all ease-out;
+            opacity: 0;
+        }
+        &:nth-child(3){
+            transition: 0.6s all ease-out;
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.navigation_list {
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.8rem;
+
+    @include media('<phone') {
+        gap: 0.2rem;
+    }
+}
+.navigation_list_item{
+  pointer-events: auto;
+
+  @include media('<phone') {
+      opacity: 0;
+      margin-right: 4rem;
+  }
+}
+.navigation_list_link{
+    @extend %link-40;
+
+    display: block;
+    line-height: 1;
+}
+        

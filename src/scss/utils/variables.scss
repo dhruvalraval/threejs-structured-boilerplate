@@ -1,0 +1,21 @@
+$color-tulip-tree: #EBAD3C;
+$color-ecru-white: #F3EFE4;
+$color-black: #000000;
+$color-everglade: #254F36;
+
+$font-neue-montreal: 'Neue Montreal';
+$font-migra: 'Migra';
+
+$ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+
+$z-indexes: (
+  'loader',
+  'preloader',
+  'scrollbar',
+  'project',
+  'worktitle',
+  'navigation',
+  'content',
+  'canvas'
+);
